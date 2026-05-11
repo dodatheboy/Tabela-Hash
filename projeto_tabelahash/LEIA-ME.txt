@@ -1,0 +1,15 @@
+=== COMO COMPILAR E RODAR ===
+
+1. Coloque o arquivo nomes_20000_reais_distintos.csv na mesma pasta de onde rodar.
+
+2. Compilar (dentro da pasta src):
+   javac -d ../out model/TabelaHash.java model/TabelaHashSomaASCII.java model/TabelaHashPolinomial.java main/Main.java
+
+3. Rodar (na pasta out, com o CSV ao lado):
+   java main.Main
+
+No IntelliJ IDEA:
+   - Importe como projeto Java simples
+   - Marque src como "Sources Root"
+   - Coloque nomes_20000_reais_distintos.csv na raiz do projeto
+   - Execute a classe main.Main
